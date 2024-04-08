@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diabetic Prediction</title>
+    <style>
+        body {
+            background-color:lightgreen;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<style>
+        .large-text {
+            font-size: 50px;
+        }
+    </style>
+
+    <div style="text-align: center;">
+        <h1 style="color: black"><b><span class="large-text">Diabetic Prediction</span></b></h1>
+    </div>
+
+<!--names=['Pregnancies','Glucose','BloodPressure','SkinThickness','Insulin','BMI','DiabetesPedigreeFunction','Age','Outcome']-->
+<form method="post" action="/submit">
+    <label style="font-size: 20px;">Pregnancies:</label>
+    <input required type="number" name='Pregnancies', placeholder="Pregnancies">
+    <div style="text-align:center;">
+    <label style="font-size: 20px;">Glucose:</label>
+    <input required type="number" name="Glucose", placeholder="Glucose"><br><br>
+        </div>
+    <label style="font-size:20px">Blood Pressure:</label>
+    <input required type="number" name="BloodPressure", placeholder="BloodPressure"><br><br>
+    <div style="text-align:center;">
+    <label style="font-size:20px">SkinThickness:</label>
+    <input required type="number" name="SkinThickness", placeholder="SkinThickness"><br><br>
+    </div>
+    <label style="font-size:20px">Insulin:</label>
+    <input required type="number" name="Insulin", placeholder="Insulin"><br><br>
+    <div style="text-align:center">
+    <label style="font-size:20px">BMI:</label>
+    <input required type="number" name="BMI", placeholder="BMI"><br><br>
+    </div>
+    <label style="font-size:20px">DiabetesPedigreeFunction:</label>
+    <input required type="number" name="DiabetesPedigreeFunction", placeholder="DiabetesPedigreeFunction"><br><br>
+    <div style="text-align:center">
+    <label style="font-size:20px">Age:</label>
+    <input required type="number" name="Age", placeholder="Age"><br><br>
+        </div>
+    <button style="font-size:20px">predict result</button>
+
+</form>
+</body>
+
+</html>
+<!--<body>-->
+<!--<h1>This is Heading 1 for deploy</h1>-->
+<!--<h2>Welcome to home page</h2>-->
+<!--<h3>Here u can pass the values</h3>-->
+<!--<p><a href="http://127.0.0.1:5000/events">click her for events</a></p>-->
+<!--<form>-->
+<!--    <button formaction="http://127.0.0.1:5000/contact">click here for contact</button><br><br>-->
+<!--</form>-->
+<!--<form method="post" action="/events">-->
+<!--    <input type="email" name="email adress" placeholder="abc@gmail.com"><br>-->
+<!--    <button>login</button><br><br>-->
+<!--</form>-->
+
+<!--<form method="post" , action="/submit">-->
+<!--    <input type="email" name = 'Email_Address' , placeholder="mail">-->
+<!--    <input type="number" name = 'mobile_number' , placeholder="Mobile number">-->
+<!--    <input type="password" , name="password", placeholder="'Password">-->
+<!--    <button> Log IN</button>-->
+<!--</form>-->

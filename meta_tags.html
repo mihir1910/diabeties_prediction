@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>meta</title>
+    <!--meta tags are written in Head, it has no link with user interface
+    , it is machine parsable-->
+    <meta name="Description" content="Web">
+    <meta name="keywords" content="HRML">
+    <meta name="author" content="John">
+    <meta name="viewport" content="width">
+    <!-- <meta http-equiv="refresh" content="3"> -->
+    <!--in HTML we can take input from forms-->
+    <!-- if we send data trhough GET it goes thriugh URL and i fwe send data through POST it remains hidden -->
+</head>
+
+<body>
+    <form action="http://www.learnstack.in" method="POST" autocomplete="OFF">
+        <label>Email:</label>
+        <input type="email" name="email"><br>
+        <label>Password</label>
+        <input type="password" name="password"><br>
+
+        <input type="submit" name="" value="login">
+
+    </form>
+
+    <form>
+        <label>Bio:</label><br>
+        <textarea></textarea><br>
+
+        <select>
+            <optgroup>
+            <option>First Year</option>
+            <option>Second Year</option>
+        </optgroup>
+
+        <optgroup>
+            <option>Third Year</option>
+            <option>Fourth Year</option>
+        </optgroup>
+        </select>
+    </form>
+
+
+    <fieldset>
+
+        <legend>Education</legend><br>
+        <label>12th</label>
+        <input type="12th" name=""><br>
+        <label>10th</label>
+        <input type="10th" name=""><br>
+    </fieldset>
+
+    <label>smartphone</label>
+    <input list="phone" name="">
+    <datalist id="phone">
+        <option value="redmi"></option>
+        <option value="apple"></option>
+        <option value="samsung"></option>
+
+    </datalist>
+
+    <h1>Input data</h1>
+    <form enctype="multipart/form-data">
+        <label>Name:</label>
+        <input type="name"><br>
+        <label>email</label>
+        <input type="email"><br>
+        <label>password</label>
+        <input type="password"><br>
+        <label>yearly income</label>
+        <input type="number"><br>
+
+        <label>DOB</label>
+        <input type="date"><br>
+
+        <label>Brnach</label><br>
+        <input type="radio" name="x">CSE<br>
+        <input type="radio" name="x">ECE<br>
+        <input type="radio" name="x">EEE<br>
+        <input type="radio" name="x">EIE<br>
+
+        <input type="submit"  name="" value="login"><br>
+
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="">Cricket<br>
+        <input type="checkbox" name="">Football<br>
+        <input type="checkbox" name="">Hockey<br>
+        <input type="checkbox" name="">Basketball<br>
+        <input type="submit" name=""><br><br>
+
+        <label>Resuem Upload</label><br>
+        <input type="file" name=""><br>
+
+        <label>Github Link</label><br>
+        <input type="url" name=""><br>
+        <input type="submit"  name="" value="login"><br>
+
+        <label>Price</label><br>
+        <input type="range" name="" min="100" max="1000000"><br>
+        <input type="reset" name="">
+        <input type="submit"  name="" value="login"><br>
+
+        <label>Name:</label>
+        <input type="text" name="" required="" autofocus=""><br>
+
+        <label>email:</label>
+        <input type="email" name="" placeholder="abc@gmail.com" required="">
+        <input type="submit"  name="" value="login"><br>
+
+    </form>
+
+</body>
+
+</html>
